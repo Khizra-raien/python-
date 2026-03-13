@@ -1,3 +1,17 @@
+# m1=int (input("enter marks:"))
+# m2=int (input("enter marks:"))
+# m3=int (input("enter marks:"))
+# if m1>m2:
+#     if m1>m3:
+#         print("m1 is greater")
+#     else:
+#         print("m3 is greater")
+# else:
+#     if n2>n3:
+#         print("m2 is grater")
+#     else:
+#         print("m3 is greater")
+
 #wap to accept percentage and if per>90 A ,per>=B,per>60>c fail
 # per=int(input("enter percentage"))
 # print(per)
