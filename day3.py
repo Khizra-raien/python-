@@ -115,7 +115,7 @@
 # print((a+b)*c/d)
 # print((a-b)*(c/d))
 # print(a+(b*c)/d) 
-
+#method1 
 # name="khizraraien"
 # count=0
 # count1=0
@@ -129,3 +129,34 @@
 # print(count)
 # print(count1)
 
+#method2
+name = "prashant"
+
+vowel = 0
+consonent = 0
+
+for i in name:
+    # print(i)
+    if (i == "a" or i == "e" or i == "i" or i == "o" or i == "u"):
+       vowel = vowel + 1
+    else:
+        consonent = consonent + 1
+
+print("vowel=", vowel)
+print("consonent=", consonent)
+
+chars=[]
+
+for i in name:
+    if i not in chars:
+        chars.append(i)
+
+for i in chars:
+    print(i)
+x = ["A", "B", "C"]
+y = ["A", "B", "C"]
+
+z=[1,2,3,4]
+print(x==y)
+print(x==z)
+print(x!=z)
